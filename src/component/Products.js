@@ -85,36 +85,7 @@ const Products = ({ category }) => {
                         </>
                     )
                 })}
-                {/* <div class="aem-Grid aem-Grid--12">
-                    <div class="aem-GridColumn aem-GridColumn--default--5">
-                        &nbsp;
-                    </div>
-                    <div class="aem-GridColumn aem-GridColumn--default--2 paginationone">
-                        <ReactPaginate
-                            nextLabel=">"
-                            onPageChange={handlePageClick}
-                            pageRangeDisplayed={3}
-                            marginPagesDisplayed={2}
-                            pageCount={pageCount}
-                            previousLabel="< "
-                            pageClassName="page-item"
-                            pageLinkClassName="page-link"
-                            previousClassName="page-item"
-                            previousLinkClassName="page-link"
-                            nextClassName="page-item"
-                            nextLinkClassName="page-link"
-                            breakLabel="..."
-                            breakClassName="page-item"
-                            breakLinkClassName="page-link"
-                            containerClassName="pagination"
-                            activeClassName="active"
-                            renderOnZeroPageCount={null}
-                        />
-                    </div>
-                    <div class="aem-GridColumn aem-GridColumn--default--5">
-                        &nbsp;
-                    </div>
-                </div> */}
+            
             </>
         )
     }
